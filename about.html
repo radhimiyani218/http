@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <style>
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+        a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+.text-white{
+    color: var(--white);
+}
+.open{
+    font-family: 'Open Sans';
+}
+
+.ralway{
+    font-family: 'Raleway';
+}
+.justify-content-between{
+    justify-content:space-between ;
+}
+.align-items-center{
+    align-items: center;
+}
+.text-center{
+    text-align: center;
+}
+/* header section css */
+header{
+    padding: 20px 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+header ul li a{
+    padding: 15px;
+    color: var(--primary-400);
+    font-weight: 600;
+}
+header p{
+    font-weight: 600;
+}
+.w-50{
+    width: 50%;
+    padding: 15px;
+}
+.p-20{
+    padding: 100px;
+}
+
+.about-body h3{
+    color: var(--primary-200);
+    padding: 10px;
+    padding-top: 30px;
+}
+.about-body p{
+    font-style: italic;
+    padding: 10px;
+}
+.about-body p:last-child{
+    color: var(--primary-300);
+}
+.about-img:hover img{
+    transform: scale(1.1);   
+}
+.about-body{
+    width: 500px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 20px;
+    box-shadow:0px 2px 15px rgba(0, 0, 0, 0.8);
+    margin-top: -80px;
+    background-color: var(--white);
+    z-index: 9;
+    position: relative;
+    transition: all 0.1s;
+    
+}
+</style>
+</head>
+<body>
+      <!-- header section -->
+    <header>
+        <div class="container">
+            <div class="row align-items-center justify-content-between ralway">
+                <p class="font-28  text-primary-200 ">WEBSITE</p>
+                <nav>
+                    <ul class="row ralway">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="gellary.html">gellary</a></li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="signup.html">Signup</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- about section -->
+    <section>
+        <div class="container">
+            <div class="row text-center">
+                <div class="w-50 p-20">
+                        <div class="about-body">
+                            <h3 class="ralway">jagu 1th Birthday</h3>
+                            <p class="open font-16">Sunday, September 26th at 7:00 pm</p>
+                            <p class="open font-16">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                        </div>
+                </div>
+                <div class="w-50 p-20">
+                    <div class="about-body">
+                        <h3 class="ralway">raju 1th Birthday</h3>
+                        <p class="open font-16">Sunday, September 26th at 7:00 pm</p>
+                        <p class="open font-16">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                    </div>
+            </div>
+            <div class="w-50 p-20">
+                <div class="about-body">
+                    <h3 class="ralway">chutaki 1th Birthday</h3>
+                    <p class="open font-16">Sunday, September 26th at 7:00 pm</p>
+                    <p class="open font-16">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                </div>
+        </div>
+                <div class="w-50 p-20">
+                        <div class="about-body">
+                            <h3 class="ralway">bheem 6th Birthday</h3>
+                            <p class="open font-16">Sunday, November 15th at 7:00 pm</p>
+                            <p class="open font-16">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
